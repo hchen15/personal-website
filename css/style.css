@@ -80,20 +80,41 @@ p{
 
 #class_table{
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 	margin-top: 3%;
 	width: 85%;
+}
+
+#work_table{
+	margin: 0 auto;
+	text-align: left;
+	width: 85%;
+	margin-top: 1%;
+}
+
+#class_table td, #class_table th {
+	border: none;
+	vertical-align: middle;
+}
+
+#class_table td{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#class_table th, #work_table th{
+	padding-bottom: 0px;
+}
+
+#work_table td, #work_table th{
+	border: none;
+	vertical-align: middle;
 }
 
 th > h1{
 	font-size: 32px;
 	padding-bottom: 10px;
 	font-weight: 400;
-	font-family: 'Raleway', sans-serif;
-}
-
-ul > li{
-	font-size: 20px;
 	font-family: 'Raleway', sans-serif;
 }
 
