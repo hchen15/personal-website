@@ -1,0 +1,165 @@
+html{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	height: 100%;
+}
+
+body{
+	background-color: rgba(255,225,255,.3);
+	min-height: 100%;
+
+}
+
+
+.navbar-default{
+	background-color: #EED2EE;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	text-align: center;
+}
+
+.navbar-collapse {
+  text-align:center;
+}
+.navbar-nav {
+    display:inline-block;
+    float:none;
+    padding-top: 5px;
+    color: black;
+}
+
+#home_name{
+	text-align: center;
+	font-size: 52px;
+	margin-top: 6%;
+	letter-spacing: 5px;
+}
+
+#home_photos{
+	padding-top: 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#home_text{
+	padding-top: 15px;
+}
+#home_text > h5{
+	font-size: 18px;
+	font-weight:200;
+	text-align: center;
+	line-height: 75%;
+	letter-spacing: .5px;
+}
+
+.current_page{
+	background-color: #FFE1FF;
+
+
+}
+
+#index_link{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	font-weight: 400;
+}
+
+#personalinfo_table{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	margin: 0px auto;
+	margin-top: 30px;
+	width: 90%;
+
+}
+
+#t1{
+	/*background-color: rgba(255,225,255,.45);*/
+	height: 100%;
+}
+
+ul.b {
+    list-style-type: square;
+    line-height: 200%
+}
+
+
+#interests_table{
+	margin: 0px auto;
+	margin-top: 30px;
+	width: 90%
+}
+
+h1{
+	font-weight: 300;
+}
+
+h2{
+	font-weight: 300i;
+	font-size: 24px;
+}
+
+p{
+	font-size: 22px;
+	line-height: 120%;
+}
+
+#interests_photos{
+	margin: 0 auto;
+	height: 167px;
+	width: 100%;
+}
+
+#class_table{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 3%;
+	width: 85%;
+}
+
+th > h1{
+	font-size: 32px;
+	padding-bottom: 10px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+}
+
+ul > li{
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+td > h5{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300; 
+	font-size: 20px;
+
+}
+
+
+
+.project_table{
+	margin: 0px auto;
+	margin-top: 2%;
+	width: 70%;
+	margin-bottom: 2%;
+}
+
+
+#connect_info{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15%;
+}
+
+
+.projects_photo{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
