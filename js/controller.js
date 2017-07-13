@@ -9,12 +9,15 @@ $(function() {
 	});
 
 	$("#resume").on("click", function(){
-		window.open("../resume.pdf");
+		window.open("../resources/resume.pdf");
 	});
 
 	$("#email").on("click", function(){
 		window.location.href = "mailto:hchen15@mit.edu";
 	});
 
+	$('#github').on("click", function(){
+		window.open("https://github.com/hchen15")
+	})
 
 });
