@@ -106,6 +106,10 @@ p{
 	padding-bottom: 0px;
 }
 
+#class_table tr, #work_table td{
+	font-size: 20px;
+}
+
 #work_table td, #work_table th{
 	border: none;
 	vertical-align: middle;
