@@ -10,7 +10,6 @@ body{
 
 }
 
-
 .navbar-default{
 	background-color: #EED2EE;
 	font-family: 'Raleway', sans-serif;
@@ -62,6 +61,7 @@ body{
 
 a:hover{
 	font-weight: 400;
+	cursor: pointer;
 }
 
 

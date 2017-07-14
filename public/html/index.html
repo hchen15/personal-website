@@ -7,13 +7,10 @@
   <title>Hannah Chen</title>
 
   <!-- Bootstrap -->
-  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="/css/bootstrap.css" rel="stylesheet">
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,200, 300, 400" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -34,10 +31,10 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             
-            <li  class = "current_page"><a href="index.html">Home</a></li>
-            <li><a href="html/experience.html">Experience</a></li>
-            <li><a href="html/projects.html">Projects</a></li> 
-            <li><a href="html/connect.html">Connect</a></li>
+            <li id="homeTab" class="current_page"><a>Home</a></li>
+            <li id="experienceTab"><a>Experience</a></li>
+            <li id="projectTab"><a>Projects</a></li> 
+            <li id="connectTab"><a>Connect</a></li>
 
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -48,15 +45,17 @@
       Hannah Chen
     </div>
     <div id="home_photos">
-      <img src="resources/photos/headshot.png" alt="hannah.png"></img>
+      <img src="/resources/photos/headshot.png" alt="hannah.png"></img>
     </div>
 
 
     <div id="home_text">
-      <h5> Computer Science and Electrical Engineering </h5>
       <h5> Massachusetts Institute of Technology | 2018</h5>
     </div>
 
 
 </body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/controller.js"></script>
